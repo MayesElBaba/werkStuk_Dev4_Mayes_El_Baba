@@ -1,14 +1,184 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Werkstuk dev4 _ El Baba Mayes</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link href="css/index.css" rel="stylesheet">
+    <title>Werstuk dev4 _ El Baba Mayes</title>
 </head>
 
 <body>
+    <div class="container">
+        <!--  Start Navigation    -->
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-light bg-trans">
+                <a class="navbar-brand font-weight-bold" href="#">Podium Aan Huis</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+                    </ul>
+                    <div class="form-inline my-2 my-lg-0">
+                        <ul class="navbar-nav mr-auto">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Video's</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#" id="klikOver">over</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <!-- End Navigation -->
+        <!-- Main -->
+        <main role="main">
+            <!-- Start Header + img -->
+            <section id="imgheader">
+                <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="images/header.jpg" class="d-block w-100" alt="...">
+                            <br>
+                            <blockquote class="blockquote text-right">
+                                <p class="mb-0">Beeld uitSlumberland, Zonzo Compagnie</p>
+                                <footer class="blockquote-footer">© Dries Segers</footer>
+                            </blockquote>
+                        </div>
+                    </div>
+                </div>
+                <br>
+            </section>
+            <!-- End Header + img -->
+            <!-- Start Show Data -->
+            <section class="mt-15" id="voorstellingen">
+                <div class="row">
+                    <div class="col-sm-12 text-center">
+                        <h2>Haal voorstellingen naar je huiskamer</h2>
+                        <p>Bekijk gratis opnames van straffe podiumvoorstellingen voor jong en oud. Elke dag komen er
+                            nieuwe bij. Via Podium Aan Huis bundelen gezelschappen, kunst- en cultuurhuizen virtueel de
+                            krachten om jou te blijven ontroeren en ontspannen. Door de coronacrisis is de magie van de
+                            live beleving even onbereikbaar. Geen nood, want als de zalen moeten sluiten, dan komt de
+                            voorstelling gewoon naar je toe. Veel kijkplezier!</p>
+                    </div>
+                    <div class="col-sm-12">
+                        <br>
+                        <div id="doelgroep">
+                            <p class="font-weight-bold group">Doelgroep</p>
+                        </div>
+                        <div id="genre">
+                            <p class="font-weight-bold group">Genre</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- End Show Data -->
+            <!-- Start Form + info-->
+            <section class="mt-15" id="form">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="col-lg-6 float-left leftText">
+                            <h2>Leun rustig achterover en geniet van de voorstelling!</h2>
+                            <p>We horen graag jouw feedback! Laat gerust een berichtje achter.</p>
+                            <br>
+                            <p>‍ Deze informatie wordt gebruikt om na te gaan of je interesse hebt in een online
+                                platform
+                                om voorstellingen te bekijken. Via e-mail stellen we je eventueel later nog vragen voor
+                                verder onderzoek naar een goed digitaal cultuurplatform.
+                            </p>
+                        </div>
+                        <div class="col-lg-6 float-right">
+                            <form>
+                                <div class="form-group">
+                                    <label for="text" class="font-weight-bold">Wat vind je van dit initatief?
+                                    </label>
+                                    <input type="text" class="form-control">
+                                </div>
+                                <div class="form-group">
+                                    <label for="text" class="font-weight-bold">Wat vind je van de
+                                        voorstellingen?</label>
+                                    <input type="text" class="form-control">
+                                </div>
+                                <label for="exampleInputEmail1" class="font-weight-bold">E-mail (optioneel)</label>
+                                <input type="email" class="form-control" id="exampleInputEmail1"
+                                    aria-describedby="emailHelp" placeholder="email@example.com">
+                                <button type="submit" class="btn btn-primary submit">Verstuur</button>
+                            </form>
+                        </div>
+                    </div>
+            </section>
+            <!-- End Form + info-->
+            <!-- Start Over text-->
+            <section id="over">
+                <h1 class="text-center">Over dit initiatief</h1>
+                <p> Podium Aan Huis is een tijdelijk platform met een bundeling van podiumvoorstellingen uit Vlaanderen
+                    en Brussel voor jong en oud. Dagelijks komen er nieuwe voorstellingen bij. Door de coronacrisis is
+                    de magie van de live beleving even onbereikbaar. Honderden voorstellingen zijn geannuleerd nu
+                    cultuurhuizen moeten sluiten. Via dit platform kan je tijdelijk toch genieten van straffe
+                    podiumvoorstellingen. Na de coronamaatregelen hopen we iedereen massaal in de zalen terug te
+                    zien.<br>
+                    Dit platform is een initiatief van Cultuurconnect, in samenwerking met gezelschappen en
+                    cultuurhuizen. Cultuurconnect ondersteunt cultuurhuizen, bibliotheken, overheden, technologiespelers
+                    en artistieke initiatieven in hun digitale innovatie en dienstverlening.</p>
+            </section>
+            <!-- End Over text-->
+            <div class="white"></div>
+        </main>
+        <!--Start Footer -->
+        <footer class="page-footer font-small teal pt-4">
+            <div class="container-fluid text-center text-md-left">
+                <!-- Grid row -->
+                <div class="row">
+                    <!-- Grid column -->
+                    <div class="col-md-6 mt-md-0 mt-3">
+                        <p>Gebruiksvoorwaarden / Privacyverklaring</p>
+                    </div>
+                    <!-- Grid column -->
+                    <hr class="clearfix w-100 d-md-none pb-3">
+                    <!-- Grid column -->
+                    <div class="col-md-6 mb-md-0 mb-3">
+                        <!-- Content -->
+                        <p>Deze website is mogelijk gemaakt door</p>
+                        <img src="images/cultuur-connect-logo.png" alt="..." class="img-thumbnail">
+                        <img src="images/vlaanderen-logo.png" alt="..." class="img-thumbnail">
+                    </div>
+                    <!-- Grid column -->
+                </div>
+                <!-- Grid row -->
+            </div>
+            <!-- Copyright -->
+            <div class="footer-copyright text-center py-3">© 2020 Copyright: Mayes El Baba -Erasmushogeschool Brussel
+            </div>
+            <!-- Copyright -->
+        </footer>
+        <!--End Footer -->
+    </div>
 
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+    <!--    eigen JS    -->
+    <script type="module" src="js/index.js"></script>
 </body>
 
 </html>
