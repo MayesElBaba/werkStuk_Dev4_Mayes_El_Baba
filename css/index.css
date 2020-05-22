@@ -63,3 +63,42 @@ border: white;
 #over h1{
     padding-top: 2em;
 }
+.form-inline .form-control{
+    width: 50%;
+}
+.formSearch{
+    margin-left: 7em;
+}
+.btn:not(:disabled):not(.disabled){
+    width: 20%;
+    padding: .7em;
+}
+.button{
+    background-color: white;
+    color: white;
+    background-color:#5a9c77;
+    padding: .5em;
+    margin: 1em 0em ;
+    font-weight: bold;
+}
+.button:hover{
+    border: white;
+    background-color: #025928;
+
+}
+.age{
+    padding-top: 1em;
+    color: white;
+    width: 10%;
+    height: 10%;
+    padding: .1em;
+    background-color: #5a9c77 ;
+}
+
+.text{
+  position:absolute;
+  background-color: white;
+  color: #025928;
+  font-size: 1.3em;
+  padding: .1em;
+}
