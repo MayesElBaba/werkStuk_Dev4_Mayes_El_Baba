@@ -1,3 +1,5 @@
+[Netlify link](https://werkstuk-dev4-el-baba-mayes.netlify.app/)
+
 Om te beginnen met de opdracht heb ik beslist om de data met fetch functie uit te halen van de JSON file
 en ik heb besloten om mijn code in JavaScript te schrijven om de filter functie te kunnen uitvoeren
 ik heb gewerkt met verschillende Array om erin de data te tonen en verschillende funcites 
